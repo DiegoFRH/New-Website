@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta chartset="UTF-8">
+    <meta http equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form to fullfill</title>
+</head>
+<body>
+
+    <form action="index.php" method="post" enctype="multipart/form-data" ><pre>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="MegaHampter" minlength="6" maxlength="20" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="6" maxlength="15" required>
+        
+        <label for="email" id="email">E-mail:</label>
+        <input type="email" id="email" placeholder="Hampter.rules@hotmail.com"></input>
+        
+        <label for="phone" id="phone">Phone:</label>
+        <input type="phone" id="phone" placeholder=""></input>
+
+        <label for="bday" id="email">Birthdate:</label>
+        <input type="date" id="bday"></input><br>
+
+        <label for="title">Title:</label>
+          <label for="Mr.">Mr.</label>
+          <input type="radio" id="Mr." value="Mr." name="title">
+          <label for="Ms.">Mr.</label>
+          <input type="radio" id="Ms." value="Ms." name="title">
+          <label for="hampter">HAMPTER</label>
+          <input type="hampter" id="Mr." value="hampter" name="title"></pre>
+
+          <label for="comment"><h4>Comment:</h4></label>
+          <textarea id="comment" blank rows="3" cols="25"></textarea>
+
+          <label for="file"><h4>File:</h4></label>
+          <input type="file" id="file" accept="image/png, image/jpeg, file/word, file/PDF, file/docx, file/pptx file/Webp, file/mp4">
+
+          
+          <br><br>
+          <pre>     <input type="reset"><br>
+        <input type="submit"></pre>
+    </form>
+</body>

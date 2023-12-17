@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(41, 41, 41);
+}
+h1{color: white; border-style: solid; border-width: 4px;border-color: rgb(155, 6, 189);border-radius: 20px;
+}
+h2{border: 3px solid rgb(120, 0, 106);border-radius: 12px; color: rgb(252, 250, 253);
+}
+h3{color: whitesmoke;}
+h3:hover{
+    color: aliceblue;
+    font-size: 1.2em;
+    }
+#p1{color: aqua;}
+#p2{color:yellow;}
+#p3{color: orangered;}
+#p4{color: green;}
+
+.odd{
+    color: lightblue;
+}
+.even{
+    color: orangered;
+}
+body{
+    background-image: url(background.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:link{
+color: lightblue;}
+a:hover{
+color: rgb(23, 189, 244);
+font-size: 1.1em;
+}
+a:active{
+    color: blue;
+    font-size: 1em;
+}
+a:visited{
+    color: lightblue;
+}
+button:hover{
+    color: rgb(77, 41, 255);
+    font-size: 0.6em;
+    }
+body{color: white;}
